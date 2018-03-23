@@ -1,0 +1,32 @@
+$container-max-widths: (
+  sm: 100%,
+  md: 720px,
+  lg: 960px,
+  xl: 1024px
+) !default;
+
+$purple:                            #5350a2!default;
+$yellow:                            #fdb917!default;
+$teal:                              #6bc7be!default;
+
+
+
+$primary:                           $purple!default;
+$secondary:                         $teal!default;
+
+
+
+$navbar-light-color:                 white !default;
+$navbar-light-active-color:          $yellow !default;
+$navbar-light-hover-color:           $yellow !default;
+
+$list-group-bg:                      #e8e8e8 !default;
+$list-group-border-color:            #f3f3f3 !default;
+
+$border-radius:                     0 !default;
+$btn-border-radius-sm:              0 !default;
+$font-size-base:                    1rem !default;
+$font-size-sm:                      ($font-size-base * .625) !default;
+$nav-tabs-link-active-color:        $yellow !default;
+$nav-tabs-link-active-bg:           transparent !default;
+$nav-tabs-link-active-border-color: transparent !default;

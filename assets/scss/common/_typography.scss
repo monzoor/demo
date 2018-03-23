@@ -1,0 +1,21 @@
+.text {
+    &-small {
+        font-size: 14px;
+    }
+    &-xsmall {
+        font-size: 9px;
+    }
+    &-big {
+        font-size: 28px;
+    }
+
+    &-black {
+        color: black;
+    }
+    &-grey {
+        color: #34495e;
+    }
+    &-yellow {
+        color: $yellow;
+    }
+}

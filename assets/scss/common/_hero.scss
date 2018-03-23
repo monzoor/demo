@@ -1,0 +1,24 @@
+
+.carousel-item{
+  height: 100vh;
+  background-size:cover !important;
+  background-position:center !important;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+@include media-breakpoint-up(lg) {
+    .carousel {
+        margin-top: -83px;
+    }
+    .carousel-caption {
+        text-align: right;
+        padding-right: 20%;
+    }
+}

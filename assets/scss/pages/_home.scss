@@ -1,0 +1,19 @@
+.services {
+    .nav-tabs {
+        i {
+            font-size: 32px;
+        }
+    }
+}
+@include media-breakpoint-up(lg) {
+    .services {
+        .nav-tabs {
+            i {
+                font-size: 70px;
+            }
+        }
+        p {
+            font-size: 28px;
+        }
+    }
+}

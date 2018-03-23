@@ -2,3 +2,11 @@
 
 @import "bootstrap-custom/bt4_variables";
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "common/bs4-overwrite";
+@import "common/common";
+@import "common/header";
+@import "common/hero";
+@import "common/icon";
+@import "common/typography";
+@import "common/utils";
+@import "pages/home";

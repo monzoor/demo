@@ -254,7 +254,7 @@ module.exports = function(grunt) {
         'style',
         'js',
         'copy',
-        'file_v',
+        // 'file_v',
         'notify:allDev'
     ]);
 
