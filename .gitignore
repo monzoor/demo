@@ -1,0 +1,7 @@
+# Style Files
+#-------------------------
+node_modules/
+bower_component/
+.idea/
+.sass-cache/
+.DS_store
