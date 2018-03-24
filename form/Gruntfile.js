@@ -275,7 +275,7 @@ module.exports = function(grunt) {
         'js',
         'uglify',
         'copy',
-        'file_v'
+        // 'file_v'
     ]);
 
     /**
