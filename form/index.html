@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Demo test</title>
+    <meta name="Description" content="This is a demo test for front end developer.">
+    <meta name="Keywords" content="test, demo, front end developer, front, end, developer, html, css, js">
+    <link rel="apple-touch-icon" sizes="180x180" href="/build/favs/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/build/favs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/build/favs/favicon-16x16.png">
+    <link rel="manifest" href="/build/favs/site.webmanifest">
+    <link rel="mask-icon" href="/build/favs/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/build/favs/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/build/favs/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <form id="testForm">
+                    <div class="form-group">
+                        <label for="firstName">First name<sup class="text-danger">*</sup></label>
+                        <input type="text" name="firstName" class="form-control" id="firstName" placeholder="First name">
+                        <div class="invalid-feedback text-first-cap"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last name</label>
+                        <input type="text" name="lastName" class="form-control" id="lastName" placeholder="Last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="mobile">Mobile<sup class="text-danger">*</sup></label>
+                        <input type="text" name="mobile" class="form-control" id="mobile" placeholder="Mobile">
+                        <div class="invalid-feedback text-first-cap"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address<sup class="text-danger">*</sup></label>
+                        <input type="text" name="address" class="form-control" id="address" placeholder="house# abcd123456, road# nodda sarkar bari road, nodda, dhaka-1212">
+                        <div class="invalid-feedback text-first-cap"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Address<sup class="text-danger">*</sup></label>
+                        <input type="text" name="email" class="form-control" id="email" placeholder="Email">
+                        <div class="invalid-feedback text-first-cap"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-3">Sign in</button>
+                    <div class="alert alert-success d-none" role="alert"></div>
+                    <div class="alert alert-danger d-none" role="alert"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="build/js/app.js" charset="utf-8"></script>
+</body>
+</html>
